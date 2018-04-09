@@ -1,0 +1,18 @@
+{
+  "name": "safehouse",
+  "version": "1.0.0",
+  "description": "This is a visual representation of the SOFWERX safehouse",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Blenke",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cesium": "^1.44.0",
+    "ejs": "^2.5.8",
+    "elasticsearch": "^14.2.1",
+    "express": "^4.16.3"
+  }
+}

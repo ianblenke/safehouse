@@ -1,0 +1,16 @@
+version: '2.1'
+
+services:
+
+  safehouse:
+    build: .
+    image: local/safehouse
+    container_name: safehouse
+    hostname: safehouse
+    environment:
+      ES_URL: ${ES_URL}
+      ES_HTTP_AUTH: ${ES_HTTP_AUTH}
+      ES_INDEX: ${ES_INDEX}
+#    ports:
+#      - 3000:3000
+
